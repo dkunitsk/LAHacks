@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Getting Started Extension's Popup</title>
+    <style>
+      body {
+	width: 300px;
+        overflow-x: hidden;
+      }
+
+      .myImage {
+        margin: 5px;
+        border: 2px solid black;
+        vertical-align: middle;
+        width: 75px;
+        height: 75px;
+      }
+    </style>
+
+    <!--
+      - JavaScript and HTML must be in separate files: see our Content Security
+      - Policy documentation[1] for details and explanation.
+      -
+      - [1]: http://developer.chrome.com/extensions/contentSecurityPolicy.html
+     -->
+  </head>
+  <body>
+  <div>
+  <textarea name="fieldName" id="remindField" rows="3" cols="30"></textarea>
+  </div><div>
+  <button id="remindButton" type="button">Help me Remember</button>
+  </div>
+  <form>
+  <div>
+  Between: <input type="text" id="timeBetween" value="">seconds.
+  </div><div>
+  Duration: <input type="text" id="duration" value="">seconds.
+  </div>
+  </form>
+
+  </body>
+  	<script src="jquery-1.9.1.min.js"></script>
+	<script src="popup.js"></script>
+</html>
+

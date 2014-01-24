@@ -1,0 +1,18 @@
+.overlayImage {
+	position:fixed;
+	left:15%;
+	top:15%;
+	width:70%;
+	height:70%;
+    z-index:9999999999999;
+}
+
+.bgImage {
+	position:fixed;
+	left:0%;
+	top:0%;
+	width:100%;
+	height:100%;
+	opacity:0.3;
+	z-index:9999999999998;
+}
